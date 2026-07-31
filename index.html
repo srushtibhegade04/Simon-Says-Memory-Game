@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Say Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game">
+
+        <h1> 🧠 Simon Says Memory Game</h1>
+        <p class="subtitle">
+           Repeat the color sequence to win.
+        </p>
+
+        <div class="instructions">
+
+        <h3>📖 How to Play</h3>
+        <ul>
+        <li> 🎮 Click <b>Start Game</b></li>
+        <li> 👀 Watch the flashing color</li>
+        <li> 🖱 Repeat the sequence</li>
+        <li> 📈 Each level adds one color</li>
+        <li> ❌ One mistake ends the game</li>
+        </ul>
+        <div class="tip">
+            💡Tip: Remember the full sequence before clicking.
+        </div>
+
+        </div>
+        <h2 id="gameStatus">
+            🎮 Click Start Game to Begin
+        </h2>
+       <div class="scoreboard">
+       <h4 id="levelText">🎯 Level : 0 </h4>
+       <h4 id="highScore">"⭐ Highest Score : 0</h4>
+       </div>
+    
+    <div class="btn-container">
+        <div class="line-1">
+            <div class="btn red" id="red"></div>
+            <div class="btn green" id="green"></div>
+        </div>
+
+        <div class="line-2">
+            <div class="btn orange" id="orange"></div>
+            <div class="btn blue" id="blue"></div>
+         </div>
+    </div>
+
+    <button id="startBtn">
+        Start Game
+    </button>
+
+    <p class="footer">
+            Made with HTML, CSS and JavaScript
+    </p>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
