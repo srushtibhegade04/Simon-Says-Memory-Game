@@ -1,5 +1,5 @@
 # 🧠 Simon Says Memory Game
-An interactive memory game built using HTML, CSS and JavaScript.
+An interactive Simon Says Memory Game built using HTML, CSS, and JavaScript with responsive design, Local Storage based High Score tracking, and smooth animations.
 
 ## 🚀 Features
 
